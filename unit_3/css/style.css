@@ -1,0 +1,11 @@
+body {
+	text-align: center;
+	font-family: helvetica;
+}
+
+hr {
+	height: 3px;
+	width: 50px;
+	background-color: #ecc218;
+	border: none;
+}
