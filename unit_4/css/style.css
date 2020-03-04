@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
+
+body {
+	text-align: center;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+}
+
+nav {
+	background-color: #ecc218;
+	font-size: 0.75em;
+	padding: 6px;
+	letter-spacing: 0.5px;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.1em;
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 900;
+	margin: 0.25em;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: 1.15px;
+	margin: 0px;
+}
+
+h5 {
+	font-size: 1em;
+	margin: 0.75em;	
+}
+
+h6 {
+	font-size: 1.7em;
+	font-weight: 700;
+	margin: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+p {
+	font-size: 1em;
+	margin: 0em;
+}
+
+hr {
+	height: 3px;
+	width: 50px;
+	background-color: #ecc218;
+	border: none;
+	margin: 10px auto;
+}
+
+.navlinks {
+	padding: 1.5em;
+}
+
+.fosters {
+	color: #fff;
+	background: url(../images/bones.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 30px;
+	margin: 30px 0px;
+}
+
+.button {
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #000;
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 5px;
+	border: none;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: .75px;
+	font-weight: 400;
+}
+
+.roundimage {
+	width: 250px;
+	height: 250px;
+	margin-top: 1em;
+}
+
+.squareimage {
+	width: 350px;
+	height:350px;
+}
+
+footer {
+	background-color: #ecc218;
+	text-align: left;
+	padding: 25px;
+}

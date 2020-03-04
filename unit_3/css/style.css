@@ -1,6 +1,9 @@
 body {
 	text-align: center;
 	font-family: helvetica;
+	background-image:url(../images/dog-on-grass.jpg);
+	background-repeat: no-repeat;
+	background-size: 25%;
 }
 
 hr {
