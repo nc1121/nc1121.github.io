@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
 
+body,html{
+	margin: 0;
+}
+
 body {
 	text-align: center;
 	font-family: 'Montserrat', 'Helvetica', sans-serif;
+
 }
 
 nav {
@@ -10,6 +15,13 @@ nav {
 	font-size: 0.75em;
 	padding: 6px;
 	letter-spacing: 0.5px;
+}
+
+.hero {
+	background: url(../images/dog-on-grass.jpg);
+	padding: 200px 0px;
+	background-size: cover;
+	background-position: top;
 }
 
 h1 {

@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
+
+body,html{
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+
+}
+
+header {
+	background-color: #fff;
+	padding-top: 16px;
+/*	border: 1px black solid;
+*/}
+
+nav {
+	background-color: #ecc218;
+	font-size: 0.75em;
+	padding: 8px 0;
+	letter-spacing: 0.5px;
+	/*background-color: #E8C66A;
+	border: 1px black solid;*/
+}
+
+.navlinks {
+	padding: 8px 1.5em;
+}
+
+nav a:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.hero {
+	background: url(../images/dog-on-grass.jpg);
+	padding: 175px 0 325px 0;
+	background-size: cover;
+	background-position: top;
+	text-align: left;
+	padding-left: 50em;
+	margin-bottom: 1.5em;
+	background-repeat: no-repeat;
+}
+
+#buttonindent {
+	margin-left: 12px;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 1.1em;
+	padding-bottom: 12px;
+}
+
+/*main {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}*/
+
+.three_column {
+	float: left;
+	width: 28%;
+	padding: 20px;
+	margin: 10px;
+}
+
+/*#column1 {
+	background-color: #AC54FF;
+}
+
+#column2 {
+	background-color: #5485FF;
+}
+
+#column3 {
+	background-color: #47FFF2;
+}*/
+
+img {
+	width: 100%;
+}
+
+h2 {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 900;
+	margin: 0.25em;
+	text-shadow: 0px 0px 20px #000;
+}
+
+h3 {
+	font-size: 1.7em;
+	font-weight: 700;
+	margin: 0.5em;
+	padding: 0 3em;
+	line-height: 1.23em;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: 1.15px;
+	margin: 0px;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 700;
+	margin-top: .6em;
+	margin-bottom: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+p {
+	font-size: 0.9em;
+	margin: 0;
+	line-height: 1.3em;
+}
+
+hr {
+	height: 3px;
+	width: 50px;
+	background-color: #ecc218;
+	border: none;
+	margin: 10px auto;
+}
+
+.fosters {
+	color: #fff;
+	background: url(../images/bones.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 30px;
+	margin: 30px 0px;
+}
+
+#twocolumn {
+/*	border: 5px black solid;
+*/	padding: 0 5% 20px 5%;
+}
+
+#instagram {
+	/*background-color: #FFE2B8;
+    border: 1px black solid;*/
+    padding: 20px;
+    float: left;
+    width: 40%;    
+}
+
+#featured {
+	/*background-color: #FFC675;
+    border: 1px black solid;*/
+    padding: 20px;
+    float: right;
+    width: 40%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.button1 {
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #000;
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 5px;
+	border: none;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: .75px;
+	font-weight: 400;
+}
+
+.button1:hover {
+	color: #000;
+	background-color: #ecc218;
+}
+
+
+.button2 {
+	color: #000;
+	text-transform: uppercase;
+	background-color: #ecc218;
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 5px;
+	border: none;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: .75px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.button2:hover {
+	background-color: #fff;
+	color: #ecc218;
+}
+
+.roundimage {
+	width: 250px;
+	height: 250px;
+	margin:0;
+}
+
+.squareimage {
+	width: 350px;
+	height:350px;
+	margin: 0.5em;
+}
+
+#stories {
+	background-color: #000;
+	color: #fff;
+	padding: 30px;
+/*	border: 1px solid #27ed41;
+*/}
+
+#storyimage {
+	padding: 0 10px 0 10px;
+    float: left;
+    width: 60%;
+}
+
+#storytext {
+	padding: 0 10px 0 10px;
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+span {
+	font-weight: bold;
+}
+
+#rectangleimage {
+	width: 600px;
+	margin: 0.5em;
+}
+
+footer {
+	padding: 0;
+	background-color: #ecc218;
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+.fivecolumn > h5{
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+}
+
+.logolink {
+	width: 40px;
+	padding: 0 0.1em;
+	margin: 0;
+}
+
+.nav_final {
+	font-size: .75em;
+	margin: 0;
+	padding: .15em;
+/*	border: solid black 1px;
+*/	line-height: 1.85em;
+
+}
+
+.fivecolumn {
+	float: left;
+	margin: 30px;
+}
+
+h6 {
+	text-align: center;
+	font-size: .75em;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
