@@ -58,15 +58,20 @@ h1 {
 
 /*main {
 	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
+	border: 1px black solid;	
 }*/
+
+#wrapper1 {
+	width: 930px;
+	margin: auto;
+}
 
 .three_column {
 	float: left;
 	width: 28%;
-	padding: 20px;
-	margin: 10px;
+	padding: 20px 20px 0 20px;
+	margin: 10px 10px 0 10px;
+	width: 250px;
 }
 
 /*#column1 {
@@ -75,6 +80,7 @@ h1 {
 
 #column2 {
 	background-color: #5485FF;
+
 }
 
 #column3 {
@@ -132,7 +138,7 @@ hr {
 	width: 50px;
 	background-color: #ecc218;
 	border: none;
-	margin: 10px auto;
+	margin: 10px auto 15px auto;
 }
 
 .fosters {
@@ -145,25 +151,40 @@ hr {
 }
 
 #twocolumn {
-/*	border: 5px black solid;
-*/	padding: 0 5% 20px 5%;
+/*	border: 5px red solid;
+*/	width: 902px;
+	margin: auto;
 }
 
 #instagram {
 	/*background-color: #FFE2B8;
     border: 1px black solid;*/
-    padding: 20px;
-    float: left;
-    width: 40%;    
+/*    padding: 20px;
+*/    margin-right: 100px;
+    float: left;   
+}
+
+#verticalline {
+	border: solid black 1px;
+	height: 423px;
+	width: 0px;
+/*	padding: 20px 0;
+*/	margin-top: 2px;
+	float: left;
 }
 
 #featured {
 	/*background-color: #FFC675;
     border: 1px black solid;*/
-    padding: 20px;
-    float: right;
-    width: 40%;
+/*    padding: 20px;
+*/    margin-left: 100px;
+    float: left;
 }
+
+.squareimage {
+	width: 350px;
+/*	margin: 0.5em;
+*/}
 
 .clearfix:after {
 	visibility: hidden;
@@ -220,39 +241,38 @@ hr {
 	margin:0;
 }
 
-.squareimage {
-	width: 350px;
-	height:350px;
-	margin: 0.5em;
-}
-
 #stories {
 	background-color: #000;
 	color: #fff;
 	padding: 30px;
+	margin-top: 30px;
 /*	border: 1px solid #27ed41;
 */}
 
+#wrapper2 {
+	width: 1020px;
+	margin: auto;
+}
+
 #storyimage {
-	padding: 0 10px 0 10px;
     float: left;
-    width: 60%;
+    margin-left: 50px;
+    margin-right: 20px;
 }
 
 #storytext {
-	padding: 0 10px 0 10px;
     float: left;
-    width: 25%;
+    margin-left: 20px;
     text-align: left;
-}
-
-span {
-	font-weight: bold;
+    width: 260px;
 }
 
 #rectangleimage {
 	width: 600px;
-	margin: 0.5em;
+}
+
+span {
+	font-weight: bold;
 }
 
 footer {
