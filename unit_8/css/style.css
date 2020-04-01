@@ -153,8 +153,7 @@ hr {
 
 .squareimage {
 	width: 70%;
-/*	margin: 0.5em;
-*/}
+}
 
 .clearfix:after {
 	visibility: hidden;
