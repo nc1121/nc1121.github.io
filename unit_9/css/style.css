@@ -163,7 +163,7 @@ hr {
 	height: 0;
 }
 
-.button1, .button2 {
+.button1, .button2, .button3 {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 0.7em 1.3em;
@@ -196,6 +196,16 @@ hr {
 .button2:hover {
 	color: #ecc218;
 	background-color: #fff;
+}
+
+.button3 {
+	color: #000;
+	background-color: #ecc218;
+}
+
+.button3:hover {
+	color: #fff;
+	background-color: #000;
 }
 
 
