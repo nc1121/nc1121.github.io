@@ -360,6 +360,11 @@ h6 {
 		padding-top: 4em;
 	}
 
+	.button1, .button2 {
+	padding: 1em 1.6em;
+	font-size: .9em;
+}
+
 	#buttonindent {
 		margin-left: 2.25em;
 	}
