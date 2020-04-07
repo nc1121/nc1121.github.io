@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap');
+
+body,html{
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: 'Montserrat', 'Helvetica', sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background-color: #fff;
+	padding-top: 1em;
+}
+
+nav {
+	background-color: #ecc218;
+	font-size: 0.75em;
+	padding: .7em 0;
+	letter-spacing: 0.05em;
+}
+
+.navlinks {
+	padding: .5em 1.5em .6em 1.5em;
+}
+
+nav a:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+#mobilenav {
+	display: none;
+}
+
+.hero {
+	background: url(../images/dog-on-grass.jpg);
+	padding: 10.94em 0 20.3em 66%;
+	background-size: cover;
+	background-position: top;
+	text-align: left;
+	margin-bottom: 1.5em;
+	background-repeat: no-repeat;
+}
+
+#buttonindent {
+	margin-left: 1em;
+}
+
+h1 {
+	font-size: 1.13em;
+	font-weight: 900;
+	line-height: 1.1em;
+	padding-bottom: 0.75em;
+}
+
+h2 {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 900;
+	margin: 0.25em;
+	text-shadow: 0 0 1em #000;
+}
+
+#wrapper1 {
+	width: 70%;
+	margin: auto;
+	/*	width: 930px;
+*/
+}
+
+.three_column {
+	float: left;
+	width: 27.3333%;
+	padding: 2% 2% 0 2%;
+	margin: 1% 1% 0 1%;
+} 
+
+.roundimage {
+	width: 100%;
+	margin:0;
+}
+
+img {
+	width: 100%;
+}
+
+h3 {
+	font-size: 1.7em;
+	font-weight: 700;
+	margin: 0.5em;
+	padding: 0 3em;
+	line-height: 1.23em;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: 0.07em;
+	margin: 0;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 700;
+	margin-top: .6em;
+	margin-bottom: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+p {
+	font-size: 0.9em;
+	font-weight: 400;
+	margin: 0;
+	line-height: 1.3em;
+}
+
+hr {
+	height: 0.1875em;
+	width: 3.125em;
+	background-color: #ecc218;
+	border: none;
+	margin: 0.625em auto 0.94em auto;
+}
+
+.fosters {
+	color: #fff;
+	background: url(../images/bones.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 1.875em;
+	margin: 1.875em 0;
+}
+
+#twocolumn {
+	width: 90%;
+	margin: auto;
+}
+
+#instagram, #featured {
+	width: 45%;
+	margin: 0 2.5%;
+    float: left;   
+}
+
+.squareimage {
+	width: 70%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.button1, .button2 {
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 0.7em 1.3em;
+	border-radius: 5px;
+	border: none;
+	font-size: 0.75em;
+	text-align: center;
+	letter-spacing: .05em;
+	font-weight: 400;
+}
+
+.button1 {
+	color: #fff;
+	background-color: #000;
+	
+}
+
+.button1:hover {
+	color: #000;
+	background-color: #ecc218;
+}
+
+
+.button2 {
+	color: #000;
+	background-color: #ecc218;
+	margin-top: 1.5em;
+}
+
+.button2:hover {
+	color: #ecc218;
+	background-color: #fff;
+}
+
+
+#stories {
+	background-color: #000;
+	color: #fff;
+	padding: 1.875em;
+	margin-top: 1.875em;
+}
+
+#wrapper2 {
+	width: 70%;
+	margin: auto;
+}
+
+#storyimage {
+    float: left;
+    width: 65%;
+    margin-right: 5%;
+}
+
+#storytext {
+    float: left;
+    text-align: left;
+    width: 30%;
+}
+
+#rectangleimage {
+	width: 100%;
+}
+
+span {
+	font-weight: bold;
+}
+
+footer {
+	padding: 0;
+	background-color: #ecc218;
+	text-align: left;
+	padding-bottom: 1.56em;
+}
+
+.fivecolumn {
+	float: left;
+	margin: 1em 1em 0 1em;
+	width: 10em;
+	display: block;
+}
+
+.fivecolumn > h5{
+	margin: 0;
+	padding: 0 0 0.5em .5em;
+	font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logolink {
+	width: 40px;
+	padding: 0 0.5em;
+	margin: 0;
+}
+
+.nav_final {
+	font-size: .75em;
+	margin: 0;
+	padding: .15em;
+	line-height: 1.85em;
+}
+
+.nav_final:hover {
+	color: #fff;
+}
+
+h6 {
+	text-align: center;
+	font-size: .75em;
+	font-weight: 400;
+	padding: 0;
+	margin: 2em 0 0 0;
+}
+
+@media only screen and (max-width: 1100px){
+	#wrapper1 {
+		width: 80%;
+	} 
+
+	#twocolumn {
+	width: 100%;
+	}
+
+	#wrapper2 {
+	width: 85%;
+	}
+}
+
+@media only screen and (max-width: 930px){
+	.hero {
+		padding: 10em 0 15em 60%;
+	}
+}
+
+@media only screen and (max-width: 790px){
+	.hero {
+		padding: 8em 0 12em 55%;
+	}	
+
+	h2 {
+		font-size: 2.8em;
+	}
+
+	h3 {
+		margin: 0.5em;
+		padding: 0 1em;
+	}
+
+	#wrapper1 {
+		width: 90%;
+	} 
+
+	#twocolumn {
+		width: 100%;
+	}
+
+	#instagram {
+		width: 47%;
+		margin: 0 1% 0 2%;
+    	float: left;  
+	}
+
+	#featured {
+		width: 47%;
+		margin: 0 2% 0 1%;
+	    float: left;
+	}
+
+	#wrapper2 {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	nav {
+		padding: 1em 0;
+	}
+
+	.navlinks {
+		padding: .8em 1em 1em 1em;
+	}
+
+	.hero {
+		padding: 2em 0;
+
+	}
+
+	h2 {
+		font-size: 2.5em;
+		text-shadow: 0 0 .5em #000;
+		padding-left: 0.5em;
+		padding-top: 4em;
+	}
+
+	#buttonindent {
+		margin-left: 2.25em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+
+	#wrapper1 {
+		width: 70%;
+	}
+
+	.three_column {
+		float: none;
+		width: 100%;
+		padding: 2% 2% 0 2%;
+		margin: 1% 1% 2% 1%;
+	}
+
+	#twocolumn {
+		width: 100%;
+	}
+
+	#instagram {
+		width: 100%;
+		margin: 0 1% 10% 1%;
+    	float: none;  
+	}
+
+	#featured {
+		width: 100%;
+		margin: 0 1% 0 1%;
+	    float: none;
+	}
+
+	#storyimage {
+	    float: none;
+	    width: 100%;
+	    margin-bottom: 5%;
+	}
+
+	#storytext {
+	    float: none;
+	    text-align: left;
+	    width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#mobilenav {
+		display: block;
+		font-size: 2em;
+		padding: 0.25em;
+	}
+
+	nav {
+		padding: 0;
+
+	}
+
+	nav a {
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	h3 {
+		margin: 0.5em;
+		padding: 0 .5em;
+	}
+
+	#wrapper1 {
+		width: 80%;
+	}
+
+	.three_column {
+		float: none;
+		width: 100%;
+		padding: 2% 2% 0 2%;
+		margin: 1% 1% 2% 1%;
+	}
+
+	.fivecolumn {
+		float: none;
+		padding: 0;
+		margin: auto;
+		text-align: center;
+	}
+
+	.fivecolumn > h5{
+		padding: 1em 0 .5em 0;
+	}
+
+	.logolink {
+		margin-bottom: 1em;
+	}
+}

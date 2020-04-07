@@ -414,10 +414,14 @@ h6 {
 
 	.fivecolumn {
 		float: none;
-		padding: 1em 0;
+		padding: 0;
 		margin: auto;
 		text-align: center;
 	}
+
+	.fivecolumn > h5{
+	
+	padding: 1em 0 .5em 0;
 
 
 }
